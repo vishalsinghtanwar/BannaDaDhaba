@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.contenare{
+    height: 100vh;
+    width: 100%;
+    overflow-x: none;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    
+}
+nav{
+    width: 100%;
+}
+.navContenare{
+     width: 100vw;
+     background-color: rgb(34, 188, 194);
+     min-height: 50px;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     text-decoration: none;
+}
+#NaveLogo{
+    font-size: 2.5rem;
+    color: white;
+}
+#NavContente{
+    font-size: 1.5rem;
+    display: flex;
+    gap: 15px;
+}
+.NaveList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.footerBox{
+    width: 100vw;
+    background-color: rgb(34, 188, 194);
+    text-align: center;
+}
+.footerBox p{
+    color:  white;
+}
+.contentBox{
+    width: 70%;
+    margin: auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 40px;
+    box-shadow: 3px 3px 30px black;
+}
+.items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Rightitems img{
+    height: 250px;
+    border-radius: 20px;
+    transition: all 1.6s linear 0s;  
+}
+.Rightitems img:hover{
+    transform: scale(1.1);
+}
+
+.Leftitems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Rightitems .overLay{
+   /* position: absolute;  */
+    width: 100%;
+    height: 100%;
+    top: 0;;
+    left: 0;
+    background-color: rgba(82, 74, 74, 0.726);
+
+}
